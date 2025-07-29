@@ -1,4 +1,5 @@
 🛍️ Supermercado La Florida - Sistema de Gestión de Productos 🛒
+
 ¡Bienvenido al sistema de gestión de productos del Supermercado La Florida!
 Este programa en Java permite gestionar productos dentro de una tienda: agregar, eliminar, editar precios y visualizar información útil sobre ellos.
 

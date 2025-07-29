@@ -11,6 +11,7 @@ Este programa en Java permite gestionar productos dentro de una tienda: agregar,
 🔹 Visualización ordenada y clara.
 
 ⚙️ Tecnologías utilizadas
+
 Java 17+
 
 java.util.Scanner
@@ -20,12 +21,14 @@ java.time.LocalDate
 Programación orientada a objetos (POO)
 
 🚀 Cómo funciona
+
 📌 Menú principal
 Cuando ejecutas el programa, verás el siguiente menú:
 
 markdown
 Copiar
 Editar
+
 ===== 👋Bienvenido al Supermercado La Florida👋 =====
 
 ¿Qué quieres hacer?: 

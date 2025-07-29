@@ -33,6 +33,8 @@ Editar
   3. 💱 Editar Precio
   4. 👀 Mostrar la lista de productos agregados
   5. ❌ Salir del sistema
+
+
 1️⃣ Agregar producto
 Al agregar un producto, se solicita:
 
@@ -60,6 +62,8 @@ Si sí, se solicita la fecha de vencimiento.
 
 Si la fecha ya pasó, el producto se marcará como ⚠️ VENCIDO.
 
+
+
 2️⃣ Eliminar producto
 Muestra todos los productos con su ID.
 
@@ -69,6 +73,8 @@ Si el ID es válido, se elimina ✅.
 
 Si no existe, se muestra un error ❌.
 
+
+
 3️⃣ Editar precio
 Permite cambiar el precio de un producto:
 
@@ -77,6 +83,8 @@ Muestra productos con número y precio actual.
 Solicita número del producto y nuevo precio.
 
 Aplica el cambio directamente ✅.
+
+
 
 4️⃣ Mostrar productos
 Imprime todos los productos agregados con la siguiente información:
@@ -89,6 +97,8 @@ Imprime todos los productos agregados con la siguiente información:
 
 ⚠️ Estado del producto: VENCIDO o Vigente
 
+
+
 🧠 Lógica destacada
 ✅ Verificación automática de vencimiento
 Cuando se registra un producto perecedero, el sistema compara la fecha de vencimiento con la actual (LocalDate.now()) y marca si ya está vencido.
@@ -99,32 +109,3 @@ Editar
 this.vencido = fechaVencimiento.isBefore(LocalDate.now());
 ✅ Perecederos sin vencimiento → no permitido
 Solo los productos marcados como perecederos tienen una fecha de vencimiento.
-
-📂 Estructura del proyecto
-less
-Copiar
-Editar
-src/
-├── org.example/
-│   ├── Main.java         // Código principal con el menú
-│   └── Producto.java     // Clase que representa un producto
-📸 Ejemplo de salida
-text
-Copiar
-Editar
-Producto Número 1
-ID: 101
-Nombre: Yogurt Natural
-Descripción: Yogurt bajo en grasa
-Categoría: Lácteos
-Proveedor: Alpina
-Fotografía 1: yogurt1.jpg
-Fotografía 2: yogurt2.jpg
-Fecha de ingreso: 2025-07-29
-Perecedero: Sí
-Fecha de vencimiento: 2025-07-25
-Estado: ⚠️ VENCIDO
-Precio: $3500
-Cantidad en bodega: 20
-🙌 Autor
-Creado por [Tu Nombre Aquí] — como proyecto de práctica en Java OOP.
